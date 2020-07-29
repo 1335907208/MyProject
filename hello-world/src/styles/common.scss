@@ -1,0 +1,14 @@
+//百度地图样式
+@import './baiduMap.scss';
+//基础样式
+@import './index.scss';
+
+a{
+  text-decoration: none;
+  color:#333;
+}
+*{
+  outline: none;
+}
+//滚动条样式
+// @include scrollBar;
