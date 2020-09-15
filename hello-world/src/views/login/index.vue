@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <form :action="`home?UserName=${name}`" method="get">
+    <!-- ?UserName=${name} -->
+    <form action="menu" method="get">
       <div class="login-box">
       <h2>login</h2>
       <div class="input-box">

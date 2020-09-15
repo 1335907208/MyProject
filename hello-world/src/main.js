@@ -8,6 +8,7 @@ import './styles/common.scss'
 
 Vue.config.productionTip = false
 
+
 Vue.use(BaiduMap, {
   // ak 是在百度地图开发者平台申请的密钥
   ak: website.baiduMapAK

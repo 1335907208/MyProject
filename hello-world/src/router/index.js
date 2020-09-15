@@ -25,6 +25,46 @@ Vue.use(VueRouter)
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/home/index.vue')
+  },
+  {
+    path: '/pdf-index',
+    name: 'PDF-Annotations',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/pdf/index.vue')
+  },
+  {
+    path: '/pdf-view',
+    name: 'PDF-view',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/pdf/view.vue')
+  },
+  {
+    path: '/demo-animation',
+    name: 'Animation',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/demo/index.vue')
+  },
+  {
+    path: '/demo-shooting',
+    name: 'Shooting',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/demo/Shooting.vue')
+  },
+  {
+    path: '/menu',
+    name: 'Menu',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/menu.vue')
   }
 ]
 
